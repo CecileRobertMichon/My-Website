@@ -8,11 +8,17 @@ body {
 h2{
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 	color: #8A0917;
     font-size: 3rem;
     font-weight: 400;
     text-align: center;
+}
+
+#page-title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 3rem;
 }
 
 .panel{
@@ -34,40 +40,47 @@ div#hello-button-row{
 	padding-top: 100px;
 }
 
+.button{
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    position: relative;
+    background: #1495bf;
+}
 #hello-button{
     margin-left: auto;
     margin-right: auto;
     width: 10%;
-	display: block;
     padding-top: 0.8rem;
     padding-right: 1.5rem;
     padding-bottom: 0.8rem;
     padding-left: 1.5rem;
-    background: #1495bf;
     color: #FFFFFF;
-    position: relative;
-    text-align: center;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#submitBut{
-	display: block;
-    padding-top: 0.3rem;
-    padding-right: 0.8rem;
-    padding-bottom: 0.3rem;
-    padding-left: 0.8rem;
-    background: #1495bf;
-    color: #FFFFFF;
-    position: relative;
-    text-align: center;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    border: none;
 }
 
 #hello-button:hover {
     background-color: #1686aa;
+}
+
+#submitBut{
+    padding-top: 0.3rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.8rem;
+    color: #FFFFFF;
+}
+
+#color-button{
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 0.8rem;
+    color: #FFFFFF;
+    width: 20%;
 }

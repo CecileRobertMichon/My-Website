@@ -9,7 +9,7 @@
     <script>
         function convertDegree(degree){
             if (degree == 'C'){
-                
+                alert("Celsius");
             } else if (degree == 'F'){
                 
             }
@@ -27,7 +27,7 @@
   Temperature: <input type="text" name="temp">
             <p> <input type="radio" name="unit" value="Celsius">Celsius<br>
                 <input type="radio" name="unit" value="Fahrenheit">Fahrenheit</p>
-  <input id="submitBut" type="submit" value="Calculate">
+  <input class="button" id="submitBut" type="submit" value="Calculate" onclick="convertDegree(C)">
 </form>
     
     </body>

@@ -1,0 +1,24 @@
+<html>
+<head>
+    
+    <title>Useless Button</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    </head>
+<body>
+    
+    <h3 id="page-title">Welcome to the useless button page!</h3>
+    
+    <a class="button" id="color-button" onclick="changeColor()">Click me to change my color!</a>
+
+<script>
+function changeColor() {
+    var randomColor = Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById("color-button").style.background = "#" + randomColor;
+}
+</script>
+    
+    </body>
+
+
+</html>
